@@ -1,0 +1,131 @@
+body {
+    font-family: "united-sans", sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.header {
+    width: 620px;
+    border: 5px solid #C7B600;
+    border-bottom: 0px;
+    padding-right: 30px;
+    padding-left: 55px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: black;
+}
+
+.inline-row {
+    display: flex;
+    gap: 160px;
+}
+
+.classes {
+    width: 620px;
+    border: 5px solid #C7B600;
+    border-top: 5px dashed #C7B600;
+    padding-right: 30px;
+    padding-left: 55px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    background-color: rgb(61, 61, 61);
+}
+
+#assignments {
+    color:rgb(190, 166, 25);
+    padding-top: 2px;
+    font-size: 25px;
+    
+}
+
+#inline-row-h3 {
+    display: flex;
+    gap: 350px;
+}
+
+
+#inline-row-p {
+    display: flex;
+    gap: 230px;
+}
+
+.courses {
+    width: 550px;
+    border: 7px ridge #C7B600;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#add {
+    margin-top: 20px;
+    height: 30px;
+    padding: 16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: grey;
+    border: 2px outset;
+}
+
+.filter {
+    margin-top: 7px;
+    height: 30px;
+    padding: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: grey;
+    border: 2px outset;
+}
+
+.due {
+    margin-top: 7px;
+    height: 30px;
+    padding: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: grey;
+    border: 2px outset;
+}
+
+.right-text{
+    text-align: right;
+    margin-top: 7px;
+    height: 30px;
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: grey;
+    border: 2px outset;
+}
+
+.open-done {
+    display:flex;
+    gap: 10px;
+    justify-content: right;
+}
+
+#title {
+    text-box: 2px solid black;
+    color: rgb(190, 166, 25);
+    border-color: black;
+}
+
+
+.course-name {
+    color:rgb(190, 166, 25);
+}
+
+.text {
+    color:aliceblue;
+}
